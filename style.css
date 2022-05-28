@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
 }
 
@@ -15,6 +15,7 @@ div.menu, div.menu ul, div.menu li {
 
 div.menu {
     display: block;
+    font-size: 14px;
     margin: 20px;
     margin-left: 1000px;
 }
@@ -36,16 +37,89 @@ div.logo img {
 
 div.barraNav input{
     display: block;
-    margin: 10px auto 100px;
+    margin: 10px auto 50px;
     padding: 5px;
-    width: 30%;
+    width: 40%;
     border-radius: 10px;
 }
 
 div.buttons input {
-    display: inline-block;
-    margin: 20;
     padding: 10px;
-
+    border-radius: 7px;
+    border-style: none;
 }
 
+.buttons:hover {
+    border: 10px;
+    border-color: rgb(87, 84, 84);
+
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.buttonsS {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.safeAccount {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.safeAccountS, .offeredByS {
+    display: flex;
+    justify-content: center;
+}
+
+.safeAccountS a, .offeredByS a {
+    text-decoration: none;
+}
+
+.safeAccountS:hover a , .offeredByS:hover a{
+    text-decoration: underline;
+}
+
+.offeredByS {
+    padding-bottom: 70px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.footer .footerMex, 
+.footer .footerMex a {
+    font-size: 11px;
+    font-weight: light;
+    color: rgb(128, 125, 125);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.footerInfoItem {
+    text-decoration: none;
+    width: 10px;
+    min-width: 200px;
+}
